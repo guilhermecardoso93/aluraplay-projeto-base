@@ -1,0 +1,40 @@
+/*Cabeçalho*/
+.cabecalho__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.cabecalho__pesquisar__item {
+  display: none;
+}
+
+/*Sessão Superior */
+
+.superior__secao__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Rodapé*/
+
+.rodape__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media (min-width: 834px) {
+  /*Cabeçalho*/
+  .cabecalho__pesquisar__item {
+    display: block;
+  }
+
+  /*Rodapé*/
+  .rodape__container {
+    justify-content: space-between;
+  }
+}
